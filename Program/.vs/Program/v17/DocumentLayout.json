@@ -11,6 +11,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10F0C9D-9CD2-42D0-A48C-6FB6B72C72AA}|..\\Class1th (printf)\\Class1th (printf).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CDA96D-5A3F-4DAC-98EF-55326E5A8476}|..\\Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,8 +23,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
+              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c",
+              "RelativeToolTip": "..\\Class3th (Bit)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-13T11:05:21.953Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -37,28 +53,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
-              "RelativeDocumentMoniker": "Source.c",
-              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
-              "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-12T07:43:39.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (printf)\\Source.c",
               "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c",
               "RelativeToolTip": "..\\Class1th (printf)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-12T07:42:47.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
+              "RelativeDocumentMoniker": "Source.c",
+              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
+              "RelativeToolTip": "Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-12T07:43:39.499Z",
               "EditorCaption": ""
             }
           ]
