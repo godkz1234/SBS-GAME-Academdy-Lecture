@@ -7,13 +7,7 @@
       "RelativeMoniker": "D:0:0:{3B8FB518-F0C1-4D93-BEC2-2267AB66876C}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57A28354-DACA-419A-AD60-3CF8AC3D58AD}|..\\Class2th (Varable \u0026 Constant)\\Class2th (Varable \u0026 Constant).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class2th (Varable \u0026 Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10F0C9D-9CD2-42D0-A48C-6FB6B72C72AA}|..\\Class1th (printf)\\Class1th (printf).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CDA96D-5A3F-4DAC-98EF-55326E5A8476}|..\\Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2604E149-1C96-4F4E-9A59-4AB7C9971CA8}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,45 +17,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class3th (Bit)\\Source.c",
-              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class3th (Bit)\\Source.c",
-              "RelativeToolTip": "..\\Class3th (Bit)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-13T11:05:21.953Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class2th (Varable \u0026 Constant)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class2th (Varable \u0026 Constant)\\Source.c",
-              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class2th (Varable \u0026 Constant)\\Source.c",
-              "RelativeToolTip": "..\\Class2th (Varable \u0026 Constant)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Source.c",
+              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c",
+              "RelativeToolTip": "..\\Class5th (Conditional Statement)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-12T11:16:16.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class1th (printf)\\Source.c",
-              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class1th (printf)\\Source.c",
-              "RelativeToolTip": "..\\Class1th (printf)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-12T07:42:47.271Z",
+              "WhenOpened": "2024-08-16T11:55:45.961Z",
               "EditorCaption": ""
             },
             {
@@ -72,7 +40,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-12T07:43:39.499Z",
               "EditorCaption": ""
