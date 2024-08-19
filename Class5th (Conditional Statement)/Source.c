@@ -32,6 +32,13 @@ void main()
 	// 어떤 특정한 조건을 비교하여 조건이 맞다면
 	// 실행되는 명령문입니다.
 
+	//int health = 0;
+	//
+	//if (health <= 0)
+	//{
+	//	printf("Destroy");
+	//}
+
 #pragma endregion
 
 

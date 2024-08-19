@@ -5,9 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B8FB518-F0C1-4D93-BEC2-2267AB66876C}|Program.vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B8FB518-F0C1-4D93-BEC2-2267AB66876C}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2604E149-1C96-4F4E-9A59-4AB7C9971CA8}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Source.c",
-              "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Class5th (Conditional Statement)\\Source.c",
-              "RelativeToolTip": "..\\Class5th (Conditional Statement)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-16T11:55:45.961Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +24,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\dddde\\Desktop\\\uD559\uC6D0\uC218\uC5C5 (\uD504\uB85C\uADF8\uB798\uBC0D)\\SBS-GAME-Academdy-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-12T07:43:39.499Z",
               "EditorCaption": ""
