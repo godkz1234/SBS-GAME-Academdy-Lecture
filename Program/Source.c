@@ -1,113 +1,124 @@
 ﻿#include <stdio.h>
-#include  <stdlib.h>
-#include <time.h>
+#include <stdlib.h>
 
-int Add(int x, int y)
-{
-	return x + y;
-}
+typedef unsigned int UINT; // 대문자로 적어주기
 
-int Substract(int x, int y)
+typedef struct Vector2
 {
-	return x - y;
-}
+	int x;
+	int y;
+}Vector2;
 
-int Multply(int x, int y)
+enum State
 {
-	return 5 * 5;
-}
+	WALK,
+	ATTACK,
+	DIE,
 
-int Divide(int x, int y)
-{
-	return 5 / 5;
-}
+	// 열거형에 중간에 있는 값을 바꾸게 되면 그다음에 있는 값은
+	// 중간에 바꾼 값에서 부터 +1이 더해서 계산합니다.
+};
 
-int Calculator(int x, int y, int (*fptr)(int, int))
+enum key
 {
-	return fptr(x,y);
-}
+	Q = 1,
+	W,
+	E,
+	R,
+};
 
 int main()
 {
-#pragma region 함수 포인터
-	// 함수의 주소값을 저장하고 가리킬 수 있는
-	// 변수입니다.
-
-	// int (*fptr)(int, int);
+#pragma region typedef 
+	// 이미 정해져 있는 예약어를 사용자가 원하는 
+	// 이름으로 새롭게 생성하는 것입니다.
+	
+	// unsigned int x = 10;
+	// UINT y = 20;
 	// 
-	// fptr = Add;
+	// Vecotr2 vector2;
 	// 
-	// printf("fptr로 호출한 값 : %d\n", fptr(10,20));
+	// Vector2.x = 10;
+	// Vector2.y = 20;
 	// 
-	// fptr = Substract;
-	// 
-	// printf("fptr로 호출한 값 : %d\n", fptr(10, 20));
-
-	// 함수 포인터는 함수의 반환형과 매개 변수의 타입이
-	// 일치해야 하며, 함수 포인터를 사용하여 동적으로 
-	// 메모리를 할당할 수 있습니다.
-
-	// printf("Calculator의 값 : %d\n", Calculator(5,5,Multply));
-
-	// 함수의 호출은 컴파일 시점에 결정되지만, 함수 포인터로 
-	// 함수를 호출하게 되면 프로그램이 실행되는 시점에 함수의
-	// 이름을 운영체제에 전당하여 함수를 호출할 수 있습니다.
-
+	// printf("x 변수의 값 : %u\n", x);
+	// printf("y 변수의 값 : %u\n", y);
 #pragma endregion
 
-#pragma region rand 함수
-	// 0 ~ 32767 사이의 난수 값을 반환하는 함수입니다.
+#pragma region 허상 포인터
+	// 이미 해제된 메모리 영역을 가리키는 포인터입니다.
 
-	// UTC 기준으로 1970년 1월 1일 0시 0분 0초부터 경과된
-	// 시간을 초(sec)로 반환하는 함수입니다.
-	// srand(time(NULL));
+	// int* ptr = (int *)malloc(sizeof(int));
 	// 
+	// *ptr = 10;
 	// 
-	// int random = rand() % 10 + 1;
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
 	// 
-	// printf("random 변수의 값 : %d\n", random);
+	// free(ptr);
+	// 
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
+	// 
+	// ptr = NULL;
+	// 
+	// if (ptr == NULL)
+	// {
+	// 	ptr = (int*)malloc(sizeof(int));
+	// }
 #pragma endregion
 
-#pragma region UP - DOWN 게임
+#pragma region 열거형
+	// 이름이 지정된 상수 집합을 나타내는 값 형식입니다.
+	
+	// enum State state = WALK;
+	// 
+	// switch (state)
+	// {
+	// case WALK : printf("Walk\n");
+	// 	break;
+	// case ATTACK : printf("Attack\n");
+	// 	break;
+	// case DIE : printf("DIe");
+	// 	break;
+	// default:
+	// 	break;
+	// }
 
-	// Life :5 , UI 표시하면 좋음
-	// 컴퓨터가 특정값을 가짐( 1 ~ 50 )
-	// 플레이어가 맞춰야 되는 게임
-	// 틀리면 힌트를 주고 맞추게 하기
-	// 작으면 작다고 표현하고 Life 1 감소
-	// 크면 크다고 표현하고 Life 1 감소
-	// 맞추면 Victory 틀리면 Fail
+	// 버튼(1,2,3,4)를 눌렀을때 차례대로 스킬이 나가고
+	// 초기 MP가 100
+	// Q(구르기) = 10, W(은화살) = 10 , E(선고) = 20; R(결전의 시간) = 30씩 소모
+	// MP를 다쓰면 더이상 스킬을 쓸수 없게 해야됨
+#pragma endregion
 
-	int Computer, Player, Life = 5;
-	srand(time(NULL);
-	Computer = rand() % 50 + 1;
+#pragma region 스킬 시스템
 
-	printf("UP - DOWN 게임에 어서오세요\n");
-	printf("당신에게는 %d만큼의 목숨이 주어집니다.\n",Life);
+	int mana = 100;
 
-	while (Life > 0)
+	enum Key key = Q;
+	
+	while (mana > 0)
 	{
-		printf("숫자를 입력해주세요 : ");
-		scanf("%d", &Player);
-	
-		if (Player < 1 || Player > 50)
-		{
-			printf("당신의 차례입니다. 1부터 50까지의 숫자중 하나를 입력해주세요");
-			continue;
-		}
-	
-		if (Player < Computer)
-		{
-			printf("입력하신 숫자는 작습니다. 다시 입력해주세요.\n");
-		}
-		else if(Player> Computer)
-		{
-			printf("입력하신 숫자는 큽니다. 다시 입력해주세요.\n");
-		}
+		scanf_s("%d", &key);
 
+		switch (key)
+		{
+		case Q : mana -= 10;
+			printf("Tumble\n");
+			break;
+		case W : mana -= 10;
+			printf("Silver Bolts\n");
+			break;
+		case E : mana -= 20;
+			printf("Condemn\n");
+			break;
+		case R : mana -= 30;
+			printf("Final Hour\n");
+			break;
+		default: printf("Exception");
+			break;
+		}
+		
 	}
-
-
+	
 #pragma endregion
 
 	return 0;
